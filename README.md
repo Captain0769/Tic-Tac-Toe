@@ -1,4 +1,8 @@
-# Tic Tac Toe Game
+# Tic Tac Toe 
+
+web game app link :- https://tic-tac-toe-kyoo.onrender.com
+
+(If you see a loading screen please wait for 1-2 mins because my web app gets in sleep if it is inactive for more than 15 mins)
 
 A modern, responsive Tic Tac Toe web application built with Python Flask and vanilla JavaScript. The game features both single-player (vs AI) and two-player modes, with different AI difficulty levels and match history tracking.
 
@@ -21,22 +25,6 @@ A modern, responsive Tic Tac Toe web application built with Python Flask and van
   - Clean, intuitive interface
   - Winning line highlighting
   - Game result modal
-```
-
-## Project Structure
-
-```
-tic-tac-toe/
-├── app.py              # Flask application and game logic
-├── requirements.txt    # Python dependencies
-├── static/
-│   ├── css/
-│   │   └── style.css  # Styles and animations
-│   └── js/
-│       └── game.js    # Frontend game logic
-└── templates/
-    └── index.html     # Main game template
-```
 
 ## Technologies Used
 
