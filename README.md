@@ -13,7 +13,7 @@ A modern, responsive Tic Tac Toe web application built with Python Flask and van
   - Two-player mode
 - 🤖 AI Difficulty Levels:
   - Easy (Ellie) - Random moves
-  - Medium (Blake) - Mix of smart and random moves
+  - Medium (Sweety) - Mix of smart and random moves
   - Hard (Lexi) - Unbeatable using Minimax algorithm
 - 👥 Player Features:
   - Custom player names
