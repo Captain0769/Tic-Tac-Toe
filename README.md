@@ -1,6 +1,6 @@
 # Tic Tac Toe 
 
-web app link :- https://tic-tac-toe-kyoo.onrender.com
+web game app link :- https://tic-tac-toe-kyoo.onrender.com
 
 (If you see a loading screen please wait for 1-2 mins because my web app gets in sleep if it is inactive for more than 15 mins)
 
