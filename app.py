@@ -45,7 +45,7 @@ API Reference:
 AI Difficulty Levels:
 ---------------------
 - Easy (Ellie): Random moves.
-- Medium (Blake): Tries to win or block, otherwise random.
+- Medium (Sweety): Tries to win or block, otherwise random.
 - Hard (Lexi): Uses minimax algorithm (unbeatable).
 
 Example API Request/Response:
@@ -277,7 +277,7 @@ def make_move():
     if game.make_move(position):
         if game.game_over:
             if game_state['mode'] == 'ai':
-                bot_names = {'easy': 'Ellie', 'medium': 'Blake', 'hard': 'Lexi'}
+                bot_names = {'easy': 'Ellie', 'medium': 'Sweety', 'hard': 'Lexi'}
                 bot_name = bot_names.get(game_state['difficulty'], 'AI')
                 if game.winner == 'X':
                     result = "You win!"
@@ -312,7 +312,7 @@ def make_move():
             if ai_move is not None:
                 game.make_move(ai_move)
                 if game.game_over:
-                    bot_names = {'easy': 'Ellie', 'medium': 'Blake', 'hard': 'Lexi'}
+                    bot_names = {'easy': 'Ellie', 'medium': 'Sweety', 'hard': 'Lexi'}
                     bot_name = bot_names.get(game_state['difficulty'], 'AI')
                     if game.winner == 'X':
                         result = "You win!"

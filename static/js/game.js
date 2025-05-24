@@ -132,7 +132,7 @@ class TicTacToeGame {
     updateBotName() {
         const botNames = {
             'easy': 'Ellie',
-            'medium': 'Blake',
+            'medium': 'Sweety',
             'hard': 'Lexi'
         };
         this.difficulty = this.difficultySelect.value;
@@ -220,7 +220,7 @@ class TicTacToeGame {
     getBotName() {
         const botNames = {
             'easy': 'Ellie',
-            'medium': 'Blake',
+            'medium': 'Sweety',
             'hard': 'Lexi'
         };
         return botNames[this.difficulty] || 'AI';
